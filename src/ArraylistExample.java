@@ -6,6 +6,6 @@ public class ArraylistExample {
         arr.add(1);
         arr.add(2);
         arr.add(3);
-        System.out.println(arr.toString());
+        System.out.println(arr);
     }
 }
