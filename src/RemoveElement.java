@@ -18,6 +18,11 @@ public class RemoveElement {
         int newLength = removeElements(arr, val);
 
         System.out.println("Length: " + newLength);
+        System.out.println("Modified Array");
+        for (int i = 0; i < newLength; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        sc.close();
     }
 
     public static int removeElements(int[] arr, int val) {
